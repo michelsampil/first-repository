@@ -1,9 +1,53 @@
- body {
-     background-color: powderblue;
-  }
-  h1 {
-    color: red;
-  }
-  p {
-    color: blue;
-  }
+
+
+header *{
+  display: inline-block;
+}
+
+nav * {
+  margin: 10px;
+  font-size: large;
+}
+
+#potato-card-section {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background: url(https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_487/k%2Farchive%2F53d5499cd2bd6448d6bcbca594adea727cf4588b);
+}
+
+section > div {
+  margin: 50px;
+  background-color: white;
+  border: solid 3px black;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+div #potato-title-1 {
+  color: blueviolet;
+}
+
+div #potato-title-2 {
+  color: aquamarine;
+}
+
+div #potato-title-3 {
+  color: dodgerblue;
+}
+
+.potato-table-head {
+  color: white;
+  background-color: black;
+}
+
+td {
+  padding: 9px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: large;
+  color: white;
+  background-color: black;
+}
