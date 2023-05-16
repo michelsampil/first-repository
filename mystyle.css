@@ -1,13 +1,57 @@
+/* SPECIFICITY / Rules weight */
 
+/* using Tag name */
+/* header {
+  background-color:gold;
+} */
 
-header *{
+/* using class-name */
+/* .my-header {
+background-color: salmon ;
+} */
+
+/* using ID */
+ /* #myHeader {
+background-color:springgreen;
+} */
+
+/* WILD CARD ' * ' */
+
+/* COMBINATORS ' ', ' > ', ' + ', ' ~ ' */
+
+/* Descendant Combinator ' ' */
+/* div p { 
+color: blueviolet;
+} */
+
+/* Child Combinator ' > '*/
+/* div h3 {
+color:darkorange;
+} */
+
+/* Adjacent sibling combinator ' + '*/
+/* h2 + div {
+background-color:  blue;
+} */
+
+/* General sibling combinator ' ~ '*/
+/* h2 ~ div {
+background-color:  beige;
+} */
+
+/* Same weight, some prop, only the last one matters */
+/* h1 {
+color: red;
+} */
+
+/* header *{
   display: inline-block;
-}
+} */
 
-nav * {
+/* nav * {
   margin: 10px;
   font-size: large;
-}
+} */
 
 #potato-card-section {
   padding-bottom: 30px;
